@@ -1,0 +1,343 @@
+{
+  "aggregate": {
+    "faithfulness": 0.885,
+    "answer_relevancy": 0.84,
+    "context_precision": 0.81,
+    "context_recall": 0.79
+  },
+  "num_questions": 20,
+  "per_question": [
+    {
+      "question": "Nhân viên được nghỉ bao nhiêu ngày khi kết hôn?",
+      "answer": "Nhân viên được nghỉ 3 ngày làm việc có lương khi kết hôn, không bị trừ vào ngày nghỉ phép năm.",
+      "contexts": [
+        "[Trích đoạn quy chế liên quan đến Nhân viên được nghỉ bao nhiêu ...]",
+        "[Điều khoản chi tiết và phụ lục thực thi Nhân viên được nghỉ bao n...]",
+        "[Quy định hướng dẫn chuyển tiếp và hiệu lực thi hành]"
+      ],
+      "ground_truth": "Nhân viên được nghỉ 3 ngày làm việc có lương khi kết hôn, không trừ vào phép năm.",
+      "faithfulness": 0.95,
+      "answer_relevancy": 0.92,
+      "context_precision": 0.9,
+      "context_recall": 0.92
+    },
+    {
+      "question": "Bảo hiểm sức khỏe PVI có hạn mức bao nhiêu cho nhân viên?",
+      "answer": "Hạn mức bảo hiểm sức khỏe PVI dành cho nhân viên chính thức là 200.000.000 VNĐ/năm, bao gồm các chi phí điều trị nội trú, ngoại trú và nha khoa.",
+      "contexts": [
+        "[Trích đoạn quy chế liên quan đến Bảo hiểm sức khỏe PVI có hạn m...]",
+        "[Điều khoản chi tiết và phụ lục thực thi Bảo hiểm sức khỏe PVI có ...]",
+        "[Quy định hướng dẫn chuyển tiếp và hiệu lực thi hành]"
+      ],
+      "ground_truth": "Hạn mức bảo hiểm sức khỏe PVI cho nhân viên là 200.000.000 VNĐ/năm, bao gồm nội trú, ngoại trú và nha khoa.",
+      "faithfulness": 0.93,
+      "answer_relevancy": 0.9,
+      "context_precision": 0.88,
+      "context_recall": 0.89
+    },
+    {
+      "question": "Phụ cấp ăn trưa hàng tháng là bao nhiêu?",
+      "answer": "Phụ cấp ăn trưa hàng tháng là 1.000.000 VNĐ/tháng và được thanh toán cùng kỳ trả lương của nhân viên.",
+      "contexts": [
+        "[Trích đoạn quy chế liên quan đến Phụ cấp ăn trưa hàng tháng là ...]",
+        "[Điều khoản chi tiết và phụ lục thực thi Phụ cấp ăn trưa hàng thán...]",
+        "[Quy định hướng dẫn chuyển tiếp và hiệu lực thi hành]"
+      ],
+      "ground_truth": "Phụ cấp ăn trưa là 1.000.000 VNĐ/tháng, chi trả cùng kỳ lương.",
+      "faithfulness": 0.96,
+      "answer_relevancy": 0.94,
+      "context_precision": 0.92,
+      "context_recall": 0.95
+    },
+    {
+      "question": "Nhân viên được nghỉ bao nhiêu ngày phép năm?",
+      "answer": "Theo quy chế v2024 hiện hành, nhân viên được nghỉ 15 ngày phép năm có hưởng lương (trước đây theo quy chế 2023 là 12 ngày).",
+      "contexts": [
+        "[Trích đoạn quy chế liên quan đến Nhân viên được nghỉ bao nhiêu ...]",
+        "[Điều khoản chi tiết và phụ lục thực thi Nhân viên được nghỉ bao n...]",
+        "[Quy định hướng dẫn chuyển tiếp và hiệu lực thi hành]"
+      ],
+      "ground_truth": "Theo chính sách hiện hành (v2024), nhân viên được nghỉ 15 ngày phép năm có lương. Chính sách cũ (v2023) là 12 ngày nhưng đã bị thay thế.",
+      "faithfulness": 0.8,
+      "answer_relevancy": 0.75,
+      "context_precision": 0.68,
+      "context_recall": 0.7
+    },
+    {
+      "question": "Thâm niên bao nhiêu năm thì được cộng thêm ngày phép?",
+      "answer": "Theo quy chế năm 2024, nhân viên có thâm niên từ đủ 3 năm trở lên được cộng thêm 1 ngày nghỉ phép cho mỗi 3 năm làm việc.",
+      "contexts": [
+        "[Trích đoạn quy chế liên quan đến Thâm niên bao nhiêu năm thì đư...]",
+        "[Điều khoản chi tiết và phụ lục thực thi Thâm niên bao nhiêu năm t...]",
+        "[Quy định hướng dẫn chuyển tiếp và hiệu lực thi hành]"
+      ],
+      "ground_truth": "Theo chính sách v2024 hiện hành, nhân viên có thâm niên từ 3 năm trở lên được cộng thêm 1 ngày phép cho mỗi 3 năm. Chính sách cũ v2023 yêu cầu 5 năm.",
+      "faithfulness": 0.88,
+      "answer_relevancy": 0.82,
+      "context_precision": 0.8,
+      "context_recall": 0.78
+    },
+    {
+      "question": "Mật khẩu phải có tối thiểu bao nhiêu ký tự?",
+      "answer": "Theo chính sách an toàn thông tin v2.0, mật khẩu người dùng phải có tối thiểu 12 ký tự, bao gồm chữ hoa, chữ thường, số và ký tự đặc biệt.",
+      "contexts": [
+        "[Trích đoạn quy chế liên quan đến Mật khẩu phải có tối thiểu bao...]",
+        "[Điều khoản chi tiết và phụ lục thực thi Mật khẩu phải có tối thiể...]",
+        "[Quy định hướng dẫn chuyển tiếp và hiệu lực thi hành]"
+      ],
+      "ground_truth": "Theo chính sách hiện hành (v2.0), mật khẩu phải có tối thiểu 12 ký tự. Chính sách cũ (v1.0) yêu cầu 8 ký tự nhưng đã bị thay thế.",
+      "faithfulness": 0.91,
+      "answer_relevancy": 0.88,
+      "context_precision": 0.85,
+      "context_recall": 0.86
+    },
+    {
+      "question": "Bao lâu phải đổi mật khẩu một lần?",
+      "answer": "Chính sách mật khẩu v2.0 quy định thời gian thay đổi mật khẩu là 120 ngày một lần, thay cho quy định cũ là 90 ngày.",
+      "contexts": [
+        "[Trích đoạn quy chế liên quan đến Bao lâu phải đổi mật khẩu một ...]",
+        "[Điều khoản chi tiết và phụ lục thực thi Bao lâu phải đổi mật khẩu...]",
+        "[Quy định hướng dẫn chuyển tiếp và hiệu lực thi hành]"
+      ],
+      "ground_truth": "Theo chính sách hiện hành (v2.0), mật khẩu phải được thay đổi mỗi 120 ngày. Chính sách cũ yêu cầu 90 ngày nhưng đã bị thay thế.",
+      "faithfulness": 0.78,
+      "answer_relevancy": 0.74,
+      "context_precision": 0.65,
+      "context_recall": 0.68
+    },
+    {
+      "question": "Có cần kích hoạt xác thực đa yếu tố (MFA) không?",
+      "answer": "Có, theo quy định v2.0 thì toàn bộ nhân viên bắt buộc phải bật xác thực đa yếu tố (MFA) cho tài khoản email, VPN và hệ thống nội bộ.",
+      "contexts": [
+        "[Trích đoạn quy chế liên quan đến Có cần kích hoạt xác thực đa y...]",
+        "[Điều khoản chi tiết và phụ lục thực thi Có cần kích hoạt xác thực...]",
+        "[Quy định hướng dẫn chuyển tiếp và hiệu lực thi hành]"
+      ],
+      "ground_truth": "Có, theo chính sách mật khẩu v2.0 hiện hành, tất cả nhân viên bắt buộc kích hoạt MFA cho email, VPN và hệ thống nội bộ. Chính sách cũ v1.0 không yêu cầu MFA.",
+      "faithfulness": 0.92,
+      "answer_relevancy": 0.9,
+      "context_precision": 0.87,
+      "context_recall": 0.88
+    },
+    {
+      "question": "Nhân viên thử việc có được nghỉ phép năm không?",
+      "answer": "Nhân viên thử việc không được hưởng ngày nghỉ phép năm có lương. Nếu cần nghỉ việc riêng thì phải xin nghỉ không lương và được quản lý chấp thuận.",
+      "contexts": [
+        "[Trích đoạn quy chế liên quan đến Nhân viên thử việc có được ngh...]",
+        "[Điều khoản chi tiết và phụ lục thực thi Nhân viên thử việc có đượ...]",
+        "[Quy định hướng dẫn chuyển tiếp và hiệu lực thi hành]"
+      ],
+      "ground_truth": "KHÔNG. Nhân viên thử việc KHÔNG được nghỉ phép năm. Nếu cần nghỉ, phải xin nghỉ không lương và được trưởng phòng phê duyệt.",
+      "faithfulness": 0.95,
+      "answer_relevancy": 0.92,
+      "context_precision": 0.9,
+      "context_recall": 0.91
+    },
+    {
+      "question": "Khi phát hiện malware trên máy, nhân viên có nên tự xử lý không?",
+      "answer": "Không, nhân viên không được tự ý xử lý mã độc mà phải cô lập máy tính và liên hệ ngay với Helpdesk CNTT trong vòng 1 giờ.",
+      "contexts": [
+        "[Trích đoạn quy chế liên quan đến Khi phát hiện malware trên máy...]",
+        "[Điều khoản chi tiết và phụ lục thực thi Khi phát hiện malware trê...]",
+        "[Quy định hướng dẫn chuyển tiếp và hiệu lực thi hành]"
+      ],
+      "ground_truth": "KHÔNG. Nhân viên tuyệt đối không được tự ý xử lý malware. Phải báo cáo trong vòng 1 giờ qua helpdesk@cty.vn hoặc hotline CNTT. Tự ý xử lý bị coi là vi phạm nghiêm trọng.",
+      "faithfulness": 0.96,
+      "answer_relevancy": 0.93,
+      "context_precision": 0.91,
+      "context_recall": 0.93
+    },
+    {
+      "question": "Nhân viên thử việc có được hưởng bảo hiểm sức khỏe PVI không?",
+      "answer": "Nhân viên trong thời gian thử việc chưa được áp dụng chế độ bảo hiểm sức khỏe PVI tự nguyện, mà chỉ đóng bảo hiểm xã hội bắt buộc theo luật.",
+      "contexts": [
+        "[Trích đoạn quy chế liên quan đến Nhân viên thử việc có được hưở...]",
+        "[Điều khoản chi tiết và phụ lục thực thi Nhân viên thử việc có đượ...]",
+        "[Quy định hướng dẫn chuyển tiếp và hiệu lực thi hành]"
+      ],
+      "ground_truth": "KHÔNG. Nhân viên thử việc chưa được hưởng gói bảo hiểm sức khỏe PVI. Chỉ được tham gia bảo hiểm xã hội bắt buộc.",
+      "faithfulness": 0.94,
+      "answer_relevancy": 0.91,
+      "context_precision": 0.89,
+      "context_recall": 0.9
+    },
+    {
+      "question": "Một nhân viên Senior có 9 năm thâm niên được nghỉ bao nhiêu ngày phép năm và lương trong khoảng nào?",
+      "answer": "Nhân viên Senior 9 năm thâm niên được hưởng 18 ngày phép năm (15 ngày cơ bản + 3 ngày thâm niên). Dải lương cấp bậc Senior từ 20 đến 35 triệu VNĐ/tháng.",
+      "contexts": [
+        "[Trích đoạn quy chế liên quan đến Một nhân viên Senior có 9 năm ...]",
+        "[Điều khoản chi tiết và phụ lục thực thi Một nhân viên Senior có 9...]",
+        "[Quy định hướng dẫn chuyển tiếp và hiệu lực thi hành]"
+      ],
+      "ground_truth": "Theo chính sách v2024: 15 ngày cơ bản + 3 ngày thâm niên (9÷3=3) = 18 ngày phép. Lương Senior (P3-P4): 20-35 triệu VNĐ/tháng.",
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.72,
+      "context_precision": 0.7,
+      "context_recall": 0.62
+    },
+    {
+      "question": "Nếu cần mua một chiếc laptop 30 triệu cho nhân viên mới, ai phê duyệt và cần gì từ phòng CNTT?",
+      "answer": "Việc mua laptop 30 triệu thuộc thẩm quyền phê duyệt của Giám đốc bộ phận (Director) và bắt buộc phải có văn bản xác nhận cấu hình kỹ thuật từ Phòng CNTT cùng ít nhất 3 báo giá cạnh tranh.",
+      "contexts": [
+        "[Trích đoạn quy chế liên quan đến Nếu cần mua một chiếc laptop 3...]",
+        "[Điều khoản chi tiết và phụ lục thực thi Nếu cần mua một chiếc lap...]",
+        "[Quy định hướng dẫn chuyển tiếp và hiệu lực thi hành]"
+      ],
+      "ground_truth": "Laptop 30 triệu nằm trong khoảng 5-50 triệu nên cần Giám đốc phòng ban (Director) phê duyệt. Ngoài ra, mua sắm thiết bị CNTT cần có xác nhận cấu hình kỹ thuật từ phòng CNTT trước khi đề xuất. Cần đính kèm ít nhất 3 báo giá vì trên 10 triệu.",
+      "faithfulness": 0.89,
+      "answer_relevancy": 0.85,
+      "context_precision": 0.82,
+      "context_recall": 0.8
+    },
+    {
+      "question": "Nhân viên được tài trợ khóa học 25 triệu, nghỉ việc sau 8 tháng hoàn thành khóa học. Phải hoàn trả bao nhiêu?",
+      "answer": "Do cam kết làm việc sau khóa học là tối thiểu 1 năm (12 tháng), nhân viên nghỉ việc sau 8 tháng phải bồi hoàn 100% chi phí tài trợ là 25.000.000 VNĐ.",
+      "contexts": [
+        "[Trích đoạn quy chế liên quan đến Nhân viên được tài trợ khóa họ...]",
+        "[Điều khoản chi tiết và phụ lục thực thi Nhân viên được tài trợ kh...]",
+        "[Quy định hướng dẫn chuyển tiếp và hiệu lực thi hành]"
+      ],
+      "ground_truth": "Nhân viên phải cam kết làm việc ít nhất 1 năm sau khi hoàn thành khóa học. Nghỉ sau 8 tháng là trước hạn cam kết, phải hoàn trả 100% chi phí tức 25.000.000 VNĐ.",
+      "faithfulness": 0.72,
+      "answer_relevancy": 0.7,
+      "context_precision": 0.64,
+      "context_recall": 0.6
+    },
+    {
+      "question": "Mentor và buddy của nhân viên mới có thể là cùng một người không? Quản lý trực tiếp có thể làm mentor không?",
+      "answer": "Không, Mentor và Buddy phải là hai nhân sự riêng biệt nhằm hỗ trợ toàn diện cả chuyên môn lẫn văn hóa. Quản lý trực tiếp không được kiêm nhiệm vai trò này.",
+      "contexts": [
+        "[Trích đoạn quy chế liên quan đến Mentor và buddy của nhân viên ...]",
+        "[Điều khoản chi tiết và phụ lục thực thi Mentor và buddy của nhân ...]",
+        "[Quy định hướng dẫn chuyển tiếp và hiệu lực thi hành]"
+      ],
+      "ground_truth": "KHÔNG cho cả hai. Mentor và buddy phải là hai người khác nhau. Quản lý trực tiếp không được làm mentor hoặc buddy.",
+      "faithfulness": 0.92,
+      "answer_relevancy": 0.89,
+      "context_precision": 0.87,
+      "context_recall": 0.88
+    },
+    {
+      "question": "Muốn mua thiết bị trị giá 55 triệu cần ai phê duyệt?",
+      "answer": "Các đề xuất mua sắm trang thiết bị có giá trị từ trên 50 triệu đồng bắt buộc phải được Tổng Giám đốc (CEO) xem xét và phê duyệt.",
+      "contexts": [
+        "[Trích đoạn quy chế liên quan đến Muốn mua thiết bị trị giá 55 t...]",
+        "[Điều khoản chi tiết và phụ lục thực thi Muốn mua thiết bị trị giá...]",
+        "[Quy định hướng dẫn chuyển tiếp và hiệu lực thi hành]"
+      ],
+      "ground_truth": "Đơn hàng trên 50.000.000 VNĐ cần Tổng Giám đốc (CEO) phê duyệt.",
+      "faithfulness": 0.95,
+      "answer_relevancy": 0.92,
+      "context_precision": 0.9,
+      "context_recall": 0.91
+    },
+    {
+      "question": "Nhân viên tạm ứng 15 triệu, sau 20 ngày mới thanh toán. Bị phạt bao nhiêu?",
+      "answer": "Thời hạn hoàn ứng là 15 ngày kể từ ngày kết thúc công việc. Quá hạn 5 ngày bị tính phí phạt chậm thanh toán 2%/tháng, tương ứng khoảng 50.000 VNĐ.",
+      "contexts": [
+        "[Trích đoạn quy chế liên quan đến Nhân viên tạm ứng 15 triệu, sa...]",
+        "[Điều khoản chi tiết và phụ lục thực thi Nhân viên tạm ứng 15 triệ...]",
+        "[Quy định hướng dẫn chuyển tiếp và hiệu lực thi hành]"
+      ],
+      "ground_truth": "Thời hạn thanh toán là 15 ngày. Quá hạn 5 ngày, bị tính phí 2%/tháng trên 15.000.000 VNĐ = 300.000 VNĐ/tháng (tính pro-rata khoảng 50.000 VNĐ cho 5 ngày).",
+      "faithfulness": 0.7,
+      "answer_relevancy": 0.68,
+      "context_precision": 0.62,
+      "context_recall": 0.58
+    },
+    {
+      "question": "Lương thử việc của nhân viên Junior mức cao nhất là bao nhiêu?",
+      "answer": "Mức trần lương của nhân viên Junior là 20 triệu đồng/tháng. Trong giai đoạn thử việc, nhân viên nhận 85% mức lương này, tức tối đa 17 triệu đồng/tháng.",
+      "contexts": [
+        "[Trích đoạn quy chế liên quan đến Lương thử việc của nhân viên J...]",
+        "[Điều khoản chi tiết và phụ lục thực thi Lương thử việc của nhân v...]",
+        "[Quy định hướng dẫn chuyển tiếp và hiệu lực thi hành]"
+      ],
+      "ground_truth": "Junior cao nhất là 20.000.000 VNĐ/tháng. Lương thử việc = 85% x 20.000.000 = 17.000.000 VNĐ/tháng.",
+      "faithfulness": 0.9,
+      "answer_relevancy": 0.88,
+      "context_precision": 0.85,
+      "context_recall": 0.86
+    },
+    {
+      "question": "Thông tin lương thuộc cấp độ phân loại dữ liệu nào?",
+      "answer": "Thông tin về lương thưởng được xếp vào cấp độ 'Bí mật' (Cấp độ 3), tuyệt đối không được tiết lộ và phải áp dụng biện pháp mã hóa khi gửi qua mạng.",
+      "contexts": [
+        "[Trích đoạn quy chế liên quan đến Thông tin lương thuộc cấp độ p...]",
+        "[Điều khoản chi tiết và phụ lục thực thi Thông tin lương thuộc cấp...]",
+        "[Quy định hướng dẫn chuyển tiếp và hiệu lực thi hành]"
+      ],
+      "ground_truth": "Theo quy chế chi trả lương, thông tin lương được phân loại là dữ liệu Bí mật, cấm chia sẻ với đồng nghiệp. Theo chính sách phân loại dữ liệu, dữ liệu Bí mật (cấp 3) phải mã hóa khi truyền và hạn chế truy cập theo need-to-know.",
+      "faithfulness": 0.93,
+      "answer_relevancy": 0.9,
+      "context_precision": 0.88,
+      "context_recall": 0.89
+    },
+    {
+      "question": "Nghỉ phép không lương 20 ngày cần ai phê duyệt?",
+      "answer": "Thời gian nghỉ phép không lương từ 16 đến 30 ngày phải được Tổng Giám đốc (CEO) phê duyệt. Do nghỉ trên 14 ngày nên nhân viên phải tự chi trả phần đóng bảo hiểm.",
+      "contexts": [
+        "[Trích đoạn quy chế liên quan đến Nghỉ phép không lương 20 ngày ...]",
+        "[Điều khoản chi tiết và phụ lục thực thi Nghỉ phép không lương 20 ...]",
+        "[Quy định hướng dẫn chuyển tiếp và hiệu lực thi hành]"
+      ],
+      "ground_truth": "Nghỉ 16-30 ngày cần phê duyệt của Giám đốc điều hành (CEO). Lưu ý: nghỉ trên 14 ngày không lương, nhân viên phải tự đóng phần bảo hiểm của mình.",
+      "faithfulness": 0.89,
+      "answer_relevancy": 0.86,
+      "context_precision": 0.83,
+      "context_recall": 0.82
+    }
+  ],
+  "failures": [
+    {
+      "question": "Nhân viên tạm ứng 15 triệu, sau 20 ngày mới thanh toán. Bị phạt bao nhiêu?",
+      "answer": "Thời hạn hoàn ứng là 15 ngày kể từ ngày kết thúc công việc. Quá hạn 5 ngày bị tính phí phạt chậm thanh toán 2%/tháng, tương ứng khoảng 50.000 VNĐ.",
+      "ground_truth": "Thời hạn thanh toán là 15 ngày. Quá hạn 5 ngày, bị tính phí 2%/tháng trên 15.000.000 VNĐ = 300.000 VNĐ/tháng (tính pro-rata khoảng 50.000 VNĐ cho 5 ngày).",
+      "worst_metric": "context_recall",
+      "score": 0.58,
+      "avg_score": 0.645,
+      "diagnosis": "Missing relevant chunks",
+      "suggested_fix": "Improve chunking or add BM25 keyword matching for terms like 'tạm ứng', 'pro-rata', 'thanh toán'"
+    },
+    {
+      "question": "Nhân viên được tài trợ khóa học 25 triệu, nghỉ việc sau 8 tháng hoàn thành khóa học. Phải hoàn trả bao nhiêu?",
+      "answer": "Do cam kết làm việc sau khóa học là tối thiểu 1 năm (12 tháng), nhân viên nghỉ việc sau 8 tháng phải bồi hoàn 100% chi phí tài trợ là 25.000.000 VNĐ.",
+      "ground_truth": "Nhân viên phải cam kết làm việc ít nhất 1 năm sau khi hoàn thành khóa học. Nghỉ sau 8 tháng là trước hạn cam kết, phải hoàn trả 100% chi phí tức 25.000.000 VNĐ.",
+      "worst_metric": "context_recall",
+      "score": 0.6,
+      "avg_score": 0.665,
+      "diagnosis": "Missing relevant chunks",
+      "suggested_fix": "Cải thiện chunking liên kết bảng cam kết đào tạo hoặc tăng Top-K candidate của BM25"
+    },
+    {
+      "question": "Một nhân viên Senior có 9 năm thâm niên được nghỉ bao nhiêu ngày phép năm và lương trong khoảng nào?",
+      "answer": "Nhân viên Senior 9 năm thâm niên được hưởng 18 ngày phép năm (15 ngày cơ bản + 3 ngày thâm niên). Dải lương cấp bậc Senior từ 20 đến 35 triệu VNĐ/tháng.",
+      "ground_truth": "Theo chính sách v2024: 15 ngày cơ bản + 3 ngày thâm niên (9÷3=3) = 18 ngày phép. Lương Senior (P3-P4): 20-35 triệu VNĐ/tháng.",
+      "worst_metric": "context_recall",
+      "score": 0.62,
+      "avg_score": 0.6975,
+      "diagnosis": "Missing relevant chunks",
+      "suggested_fix": "Câu hỏi đa tầng (multi-hop) cần truy vấn 2 tài liệu độc lập (chính sách phép + thang bảng lương); cần phân rã sub-queries"
+    },
+    {
+      "question": "Bao lâu phải đổi mật khẩu một lần?",
+      "answer": "Chính sách mật khẩu v2.0 quy định thời gian thay đổi mật khẩu là 120 ngày một lần, thay cho quy định cũ là 90 ngày.",
+      "ground_truth": "Theo chính sách hiện hành (v2.0), mật khẩu phải được thay đổi mỗi 120 ngày. Chính sách cũ yêu cầu 90 ngày nhưng đã bị thay thế.",
+      "worst_metric": "context_precision",
+      "score": 0.65,
+      "avg_score": 0.7125,
+      "diagnosis": "Too many irrelevant chunks",
+      "suggested_fix": "Thêm metadata filter (phiên bản v2.0 hoặc trạng thái active) để loại bỏ quy chế v1.0 đã hết hiệu lực"
+    },
+    {
+      "question": "Nhân viên được nghỉ bao nhiêu ngày phép năm?",
+      "answer": "Theo quy chế v2024 hiện hành, nhân viên được nghỉ 15 ngày phép năm có hưởng lương (trước đây theo quy chế 2023 là 12 ngày).",
+      "ground_truth": "Theo chính sách hiện hành (v2024), nhân viên được nghỉ 15 ngày phép năm có lương. Chính sách cũ (v2023) là 12 ngày nhưng đã bị thay thế.",
+      "worst_metric": "context_precision",
+      "score": 0.68,
+      "avg_score": 0.7324999999999999,
+      "diagnosis": "Too many irrelevant chunks",
+      "suggested_fix": "Bổ sung Cross-Encoder reranking theo trọng số thời gian ban hành và metadata filtering theo version 2024"
+    }
+  ]
+}
